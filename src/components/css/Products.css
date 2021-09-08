@@ -1,0 +1,78 @@
+.category {
+  padding: 85px 0 103px 0;
+}
+
+.category h1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+#product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 103px 40px;
+  padding-bottom: 191px;
+}
+
+.card {
+  padding: 16px;
+  transition: 0.5 linear;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+
+.card:hover img {
+  opacity: 1;
+}
+
+.content {
+  padding-top: 24px;
+}
+
+.content h3 {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+.content h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+button img {
+  width: 52px;
+  position: absolute;
+  right: 31px;
+  bottom: 95px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.product__image {
+  width: 360px;
+  height: 340px;
+}

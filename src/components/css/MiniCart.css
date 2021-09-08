@@ -1,0 +1,168 @@
+.Items {
+  position: absolute;
+  top: 68px;
+  right: 87px;
+  padding: 8px 16px 20px;
+  border: 1px solid #eee;
+  display: flex;
+}
+
+.details-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 0 41px 0;
+}
+
+.cart-title h1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.amount h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+  padding: 28px 0;
+}
+
+.count {
+  background: none;
+  padding: 5px 8px;
+  border: 1px solid #1d1f22;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.row-cart {
+  padding-right: 20px;
+}
+
+.row-cart h4 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+.row-cart h5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+.item-img-cart {
+  display: flex;
+  align-items: center;
+}
+
+.price h5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+.product-image {
+  width: 150px;
+}
+
+.size-mini {
+  padding-top: 10px;
+}
+
+.size-mini ul li {
+  padding: 4px 7px;
+  border: 1px solid #1d1f22;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: 0.2s ease;
+}
+
+.size-mini ul li:hover {
+  background: rgba(166, 166, 166, 0.2);
+  color: #a6a6a6;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+.total h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1d1f22;
+}
+
+.total p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+.checkbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.minibtn button {
+  padding: 13px 29px;
+}
+
+.minibtn .bag {
+  border: 1px solid #1d1f22;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.minibtn .check {
+  background: #5ece7b;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+}

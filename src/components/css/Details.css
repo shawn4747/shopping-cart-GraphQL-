@@ -1,0 +1,154 @@
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 85px 0 72px 0;
+}
+
+.item-img img {
+  max-width: 610px;
+  min-width: 300px;
+  width: 100%;
+  height: 511px;
+  cursor: pointer;
+  display: block;
+  object-fit: cover;
+}
+
+.row {
+  padding-left: 100px;
+}
+
+.details-title h4 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  color: #1d1f22;
+}
+
+.row h5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 27px;
+  color: #1d1f22;
+  padding: 16px 0 43px 0;
+}
+
+.size-detail h4 {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #1d1f22;
+}
+.size-detail ul {
+  padding: 8px 0 40px 0;
+}
+
+.size-detail ul li {
+  padding: 13px 27px 14px;
+  border: 1px solid #1d1f22;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.size-detail ul li:hover {
+  background-color: #1d1f22;
+  color: #fff;
+}
+
+.is-active {
+  background-color: #1d1f22;
+  color: #fff;
+}
+
+.price-detail h4 {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #1d1f22;
+}
+
+.price-detail h5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+  color: #1d1f22;
+}
+
+.price-detail p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 159.96%;
+  color: #1d1f22;
+}
+
+.add-cart {
+  width: 100%;
+  display: inline-block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 16px 93px;
+  background: #5ece7b;
+  margin-bottom: 40px;
+  transition: 0.2s linear;
+}
+
+.add-cart:hover {
+  color: #fff;
+  background: #1d1f22;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel .carousel {
+  position: relative;
+  display: initial;
+}
+
+.carousel .thumbs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.carousel-item {
+  border: none;
+  outline: none;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.carousel .control-dots {
+  display: none;
+}
+
+.carousel-item {
+  font-size: 50px;
+}
